@@ -47,6 +47,12 @@ allprojects {
     }
 }
 
+configurations.all {
+    resolutionStrategy {
+        failOnVersionConflict()
+    }
+}
+
 buildscript {
     repositories {
         mavenLocal()

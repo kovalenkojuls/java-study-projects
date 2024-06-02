@@ -29,7 +29,7 @@ public class IndexController {
         );
     }
 
-    @PostMapping("/response/{name}")
+    @PostMapping(value = "/response/{name}", consumes = {"application/json"})
     public Response response(@PathVariable("name") String name, @RequestBody Request params) {
         return new Response(name, String.format("%s-%s", params.param1(), params.param2()));
     }

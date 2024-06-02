@@ -26,8 +26,8 @@ Content-Type: application/json
 Cache-Control: no-cache
 
 {
-"param1": "pa1",
-"param2": "pa2"
+"param1": "value1",
+"param2": "value2"
 }
 
 ###

@@ -67,3 +67,7 @@ jib {
 }
 
 tasks.getByName("build").dependsOn("jib")
+
+tasks.test {
+    useJUnitPlatform()
+}

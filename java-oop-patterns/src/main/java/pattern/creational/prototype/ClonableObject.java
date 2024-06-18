@@ -24,7 +24,7 @@ class ClonableObject implements Cloneable {
     public ClonableObject clone() throws CloneNotSupportedException {
         ClonableObject clonableObject = (ClonableObject) super.clone();
         logger.info("{}", clonableObject);
-        return sheep;
+        return clonableObject;
     }
 
     @Override
@@ -32,7 +32,7 @@ class ClonableObject implements Cloneable {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         ClonableObject clonableObject = (ClonableObject) o;
-        return Objects.equals(name, sheep.name);
+        return Objects.equals(name, clonableObject.name);
     }
 
     @Override

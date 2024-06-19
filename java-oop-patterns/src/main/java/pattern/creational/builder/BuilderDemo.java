@@ -7,9 +7,6 @@ public class BuilderDemo {
     private static final Logger logger = LoggerFactory.getLogger(BuilderDemo.class);
 
     public static void main(String[] args) {
-        BigObject bigObject1 = new BigObject(null, "2", null, "4", "5");
-        logger.info("{}", bigObject1);
-
         BigObject bigObject2 = new BigObject.Builder("1")
                 .withParam2("value of param2")
                 .withParam5("value of param5")

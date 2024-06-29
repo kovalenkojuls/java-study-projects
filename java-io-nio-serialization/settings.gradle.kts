@@ -1,4 +1,4 @@
-rootProject.name = "java-serialization"
+rootProject.name = "java-io-nio-serialization"
 
 pluginManagement {
     val dependencyManagement: String by settings

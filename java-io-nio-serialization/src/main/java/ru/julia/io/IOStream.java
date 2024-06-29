@@ -1,4 +1,4 @@
-package ru.julia.IOStream;
+package ru.julia.io;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;

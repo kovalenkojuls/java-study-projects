@@ -8,6 +8,7 @@ import org.telegram.telegrambots.updatesreceivers.DefaultBotSession;
 import java.util.Map;
 
 import static com.telegrambot.ContentTelegramBot.*;
+import static java.lang.StringTemplate.STR;
 
 public class GameTelegramBot extends AbstractTelegramBot {
     public static final String NAME = "";//SET TELEGRAM BOT USERNAME

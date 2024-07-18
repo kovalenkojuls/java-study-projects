@@ -1,0 +1,25 @@
+services:
+  cassandra:
+    image: cassandra:latest
+    ports:
+      - "9042:9042"
+      - "7199:7199"
+    depends_on:
+      - mongosetup
+
+  redis:
+    image: redis:latest
+    ports:
+      - "6379:6379"
+    depends_on:
+      - mongosetup
+
+  neo4j:
+    image: neo4j:latest
+    ports:
+      - "7474:7474"
+      - "7687:7687"
+    environment:
+      - NEO4J_AUTH=none
+    depends_on:
+      - mongosetup

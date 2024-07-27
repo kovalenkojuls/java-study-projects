@@ -1,4 +1,3 @@
-
 import org.gradle.plugins.ide.idea.model.IdeaLanguageLevel
 import org.springframework.boot.gradle.plugin.SpringBootPlugin.BOM_COORDINATES
 

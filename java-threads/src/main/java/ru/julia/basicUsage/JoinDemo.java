@@ -1,4 +1,4 @@
-package ru.julia.thread;
+package ru.julia.basicUsage;
 
 import java.util.concurrent.ThreadLocalRandom;
 import org.slf4j.Logger;

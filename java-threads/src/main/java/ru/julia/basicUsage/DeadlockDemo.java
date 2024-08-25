@@ -1,4 +1,4 @@
-package ru.julia.thread;
+package ru.julia.basicUsage;
 
 import java.lang.management.ManagementFactory;
 import java.lang.management.ThreadInfo;

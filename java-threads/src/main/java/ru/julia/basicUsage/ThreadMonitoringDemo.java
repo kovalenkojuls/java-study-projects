@@ -1,4 +1,4 @@
-package ru.julia.thread;
+package ru.julia.basicUsage;
 
 import java.util.concurrent.TimeUnit;
 import org.slf4j.Logger;
